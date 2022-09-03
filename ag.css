@@ -1,0 +1,195 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.maindiv{
+	width: 1025px;
+	height: 100%;
+	margin: auto;
+	text-align: center;	
+	position: relative;
+}
+
+.mainpag{
+	width: 100%;
+	height: 460px;
+	background: #c4a086;
+}
+.mrq{
+	padding: 40px 0 30px;
+	color: #0010d5;
+}
+.hvr{
+	width: 160px;
+	height: 20px;
+	background: #3d3d3d;
+	color: #fff;
+	padding: 10px 0;
+	border: 1px dotted red;
+	border-radius: 5px;
+	position: absolute;
+	top: 200px;
+	left: 600px;
+    opacity: 0;
+	transition: 1s;
+
+
+}
+.logodiv:hover .hvr{
+     opacity: 1;
+}
+
+.slog{
+	position: absolute;
+	top: 250px;
+	left: 390px;
+	color: #375362;
+}
+b{
+	font-size: 12px;
+	color: #0f0f0f;
+}
+.iput{
+	margin-top: 36px;
+	width: 300px;
+	height: 25px;
+	border-radius: 5px;
+	border: none;
+	background: #5a5a5a;
+	color: #ededed;
+}
+.snd{
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+}
+.ponnodiv{
+	width: 100%;
+	height: 840px;
+	padding-top: 40px;
+	background: #139413;
+	transition: 1s;
+	position: relative;
+}
+
+.ponno{
+	display: grid;
+	grid-template-columns: 19.5% 19.5% 19.5% 19.5% 19.5%;
+    padding-top: 30px;
+}
+.item{
+	padding: 30px;
+	margin-bottom: 30px;
+}
+.itemnam{
+	font-size: 21px;
+	color: #fff;
+}
+.itemimg{
+	margin: 13px 0 5px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.opkr{
+	background: #ce64ce;
+	color: #ffeeee;
+	width: 105px;
+	height: 28px;
+	margin: auto;
+	margin-bottom: 10px;
+	padding-top: 3px;
+	border-radius: 4px;
+}
+.knn{
+	width: 75px;
+	background: #7840aa;
+}
+.pop{
+	width: 100%;
+	height: 0;
+	background: #4be8d2fe;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	transition: .5s;
+}
+.frn{
+	text-align: left;
+	margin: 10px 10px;
+}
+.pop .des{
+	margin: 30px 0 20px 0;
+	z-index: 4;
+}
+
+.odr{
+	width: 0;
+	height: 100%;
+	background: yellow;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	transition: .5s;
+}
+.popimg{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.ipt{
+	margin-top: 35px;
+}
+input, .txtar{
+	width: 400px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 15px;
+	border: none;
+
+}
+.sbm{
+    width: 160px;
+    height: 35px;
+    background: #addeea;
+}
+.txtar{
+	height: 100px;
+}
+.own{
+	width: 100%;
+	height: 640px;
+	background: #5463f6;
+	padding-top: 35px;
+}
+.owner{
+	margin-top: 40px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+
+}
+.cntc{
+	margin: 20px 20px 0 0;
+	width: 63px;
+	height: 63px;
+	background: url('logo.png');
+	border-radius: 50%;
+	float: left;
+}
+.cntc:hover{
+	box-shadow: 0 0 15px 0 #010101;
+}
+.iton{
+	margin-left: 400px;
+	background-position: 182px 600px;
+}
+.itto{
+	background-position: 862px 262px;
+}
+.itte{
+	background-position: 522px 263px;
+
+}
